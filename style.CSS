@@ -1,0 +1,85 @@
+body {
+    background-color: navajowhite;
+}
+header {
+    color: black;
+    background-color: mediumpurple;
+}
+nav {
+    width: 50%;
+    height: 36px;
+    background-color: mediumpurple;;
+    border: 2px solid transparent;
+    margin-bottom: 80px;
+}
+Nav ul {
+    margin: 0 auto;
+    list-style-type: none;
+    width: 950px;
+}
+nav ul li {
+    font-size: 24px;
+    display: inline-block;
+    text-align: left;
+}
+nav ul li a{
+    margin-left: 20px;
+    display: block;
+    line-height: 40px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+}
+nav ul li:hover ul{
+    display: block;
+    background: transparent;
+    border: 2px solid transparent;
+    height: auto;
+    width: auto;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+nav ul li ul li{
+    display: block;
+    border-style: none;
+}
+nav ul li ul li a{
+    margin: 0 0 0 4px;
+    display: block;
+    line-height: 25px;
+    text-align: left;
+}
+nav ul li ul li a:hover{
+    background-color: transparent;
+    color: black;
+}
+aside {
+    color: black;
+    background-color: mediumpurple;
+}
+aside section ul li a{
+    color: black;
+}
+article{
+    color: black;
+}
+div {
+    color: black;
+}
+footer{
+    color: black;
+    background-color: rebeccapurple;
+}
+p {
+    color: black;
+}
+p a {
+    color: black;
+}
+a {
+    color: black;
+}
