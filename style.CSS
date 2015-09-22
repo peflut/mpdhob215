@@ -1,5 +1,5 @@
 body {
-    background-color: navajowhite;
+    background-color: white;
 }
 h1, h2, h3, h4, h5, h6 {
     font-size: 36px;
@@ -8,11 +8,13 @@ h1, h2, h3, h4, h5, h6 {
 header {
     color: black;
     background-color: mediumpurple;
+    float: left;
+    border: 2px solid black;
 }
 nav {
     width: 50%;
     height: 36px;
-    background-color: mediumpurple;;
+    background-color: mediumpurple;
     border: 2px solid transparent;
     margin-bottom: 80px;
 }
@@ -40,8 +42,8 @@ nav ul li ul{
 }
 nav ul li:hover ul{
     display: block;
-    background: transparent;
-    border: 2px solid transparent;
+    background: mediumpurple;
+    border: 2px solid black;
     height: auto;
     width: auto;
     margin-left: 5px;
@@ -64,6 +66,10 @@ nav ul li ul li a:hover{
 aside {
     color: black;
     background-color: mediumpurple;
+    float: left;
+    border: 2px solid black;
+    width: 20%;
+    height: 20%;
 }
 aside nav{
     color: black;
@@ -73,16 +79,45 @@ aside nav h3{
 }
 aside nav ul li{
     color: black;
+    text-align: justify;
 }
 article{
     color: black;
+    float: left;
+    width: 50%;
+    margin-left: 20px;
+}
+article div p, article div h3 {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 div {
     color: black;
+    float: left;
+    border: 2px solid black;
 }
 footer{
     color: black;
     background-color: rebeccapurple;
+    clear: both;
+    border: 2px solid black;
+    text-align: left;
+    align-items: center;
+}
+
+footer ul {
+    list-style-type: none; 
+    text-align: left;
+}
+footer ul li{
+    display: inline;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#cright {
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 p {
     color: black;
