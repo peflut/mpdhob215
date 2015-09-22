@@ -1,6 +1,10 @@
 body {
     background-color: navajowhite;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-size: 36px;
+    color: black;
+}
 header {
     color: black;
     background-color: mediumpurple;
@@ -61,7 +65,13 @@ aside {
     color: black;
     background-color: mediumpurple;
 }
-aside section ul li a{
+aside nav{
+    color: black;
+}
+aside nav h3{
+    color: black;
+}
+aside nav ul li{
     color: black;
 }
 article{
