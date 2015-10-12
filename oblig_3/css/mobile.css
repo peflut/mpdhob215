@@ -3,14 +3,6 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
 }
 
-nav ul li a {
-    display: block;
-    margin-left: 15px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-}
-
 aside {
     float: left;
     width: 100%;
@@ -34,16 +26,6 @@ article{
 
 div {
     border: 2px solid black;
-}
-
-#cright {
-    float: right;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-#oldPrice {
-    text-decoration: line-through;
 }
 
 #logo {
