@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
-    font-size: 36px;
+    font-size: 40px;
     color: black;
     margin-left: 1%;
 }
@@ -30,7 +30,7 @@ nav ul li a {
     display: block;
     margin-left: 30px;
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 40px;
     text-decoration: none;
     color: black;
@@ -49,6 +49,10 @@ article{
     float: left;
     width: 50%;
     margin: 2%;
+}
+
+article div ul {
+    font-size: 30px;
 }
 
 div {
@@ -91,17 +95,34 @@ footer ul li{
 
 .purcharge {
     display:block;
-    width: 50px;
+    width: 30%;
     height: auto;
     background: cornflowerblue;
     padding: 1%;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
+    font-size: 30px;
+    border: 2px solid black;
 }
 
 .price {
     font-size: 30px;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:black;
+}
+a:focus{
+    color:black;
+}
+a:active{
+    color:black;
 }
 
 img {
