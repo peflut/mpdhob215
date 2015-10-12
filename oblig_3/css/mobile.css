@@ -10,7 +10,8 @@ aside {
 
 aside h3 {
     display: inline-block;
-    margin-left: 30%
+    margin-left: 30%;
+    font-size: 20px;
 }
 
 aside ul {
