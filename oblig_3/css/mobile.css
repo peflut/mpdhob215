@@ -55,23 +55,6 @@ div {
     border: 2px solid black;
 }
 
-footer{
-    background-color: cornflowerblue;
-    clear: both;
-    border: 2px solid black;
-    text-align: left;
-    align-items: center;
-}
-
-footer ul {
-    list-style-type: none;
-    text-align: left;
-}
-footer ul li{
-    display: inline;
-    margin-left: 10px;
-    font-weight: bold;
-}
 #cright {
     float: right;
     margin-right: 10px;
