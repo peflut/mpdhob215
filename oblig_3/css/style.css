@@ -1,0 +1,109 @@
+h1, h2, h3, h4, h5, h6 {
+    font-size: 36px;
+    color: black;
+}
+
+p {
+    margin-left: 1%;
+}
+
+nav {
+    float: left;
+    width: 100%;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    margin-bottom: 1%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    width: auto;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+aside {
+    background-color: cornflowerblue;
+    float: left;
+    border: 2px solid black;
+    width: 20%;
+    height: auto;
+}
+
+article{
+    color: black;
+    float: left;
+    width: 50%;
+    margin: 2%;
+}
+
+div {
+    border: 2px solid black;
+}
+
+footer{
+    background-color: cornflowerblue;
+    clear: both;
+    border: 2px solid black;
+    text-align: left;
+    align-items: center;
+}
+
+footer ul {
+    list-style-type: none; 
+    text-align: left;
+}
+footer ul li{
+    display: inline;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#cright {
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#oldPrice {
+    text-decoration: line-through;
+}
+
+#logo {
+    height: auto;
+    width: 20%;
+    margin-left: 0;
+}
+
+.purcharge {
+    display:block;
+    width: 50px;
+    height: auto;
+    background: cornflowerblue;
+    padding: 1%;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.price {
+    font-size: 30px;
+}
+
+img {
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+}
